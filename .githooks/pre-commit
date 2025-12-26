@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Pre-commit hook to clean local configuration before committing.
+# This runs clean.sh before each commit and stages any changes it made.
+
+set -euo pipefail
+
+echo "Running clean.sh..."
+
+if [ ! -f "./clean.sh" ]; then
+  echo "Error: clean.sh not found in project root" >&2
+  exit 1
+fi
+
+if [ ! -x "./clean.sh" ]; then
+  chmod +x ./clean.sh
+fi
+
+./clean.sh
+
+if ! git diff --quiet; then
+  echo "Files were modified by clean.sh; staging changes..."
+  git add -u
+fi
+

@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode
+DerivedData/
+build/
+*.xcarchive
+*.app
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.dSYM.tar.gz
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+xcuserdata/
+*.xcuserdatad/
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/
+.swiftpm/xcode/xcuserdata/
+.swiftpm/xcode/*.xcuserstate
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Misc
+*.log
+
+# Local config (used by configure.sh)
+.env
+
+# configure.sh backups
+*.pbxproj.backup
