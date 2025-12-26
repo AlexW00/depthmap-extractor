@@ -1,5 +1,7 @@
 # Depth Map Extractor
 
+<img width="2880" height="1800" alt="extractor-appstore" src="https://github.com/user-attachments/assets/1787f183-6e0f-4a61-a68a-cdf23fc7a686" />
+
 A tiny macOS drag-and-drop app that extracts a 16-bit depth map from a photo.
 
 ## macOS build (CLI)
