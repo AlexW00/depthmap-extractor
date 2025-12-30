@@ -4,6 +4,8 @@
 
 A tiny macOS drag-and-drop app that extracts a 16-bit depth map from a photo.
 
+Available for free on the [App Store](https://apps.apple.com/de/app/depth-map-extractor/id6757020112).
+
 ## macOS build (CLI)
 
 1. Create local config:
